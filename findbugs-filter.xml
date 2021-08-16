@@ -1,0 +1,11 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<FindBugsFilter>
+  <Match>
+    <Or>
+      <Class name="create_tree_pdf"/>
+    </Or>
+    <Method name="createPdf"/>
+    <Bug pattern="DM_DEFAULT_ENCODING"/>
+  </Match>
+</FindBugsFilter>
